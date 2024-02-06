@@ -1,12 +1,13 @@
-# AKKA HTTP with PostgresSQL     
+# AKKA HTTP with PostgreSQL     
 
-**Clone the repository and follow below steps**     
+**Clone the repository and follow the below steps**     
 
 1. **Open a terminal** and **connect to postgres DB** by the below commands.     
      ```sh 
    sudo -i -u postgres;       
-   ```   
-     ![Screenshot from 2024-02-05 12-58-42.png](..%2F..%2F..%2FPictures%2FScreenshot%20from%202024-02-05%2012-58-42.png)
+   ```         
+     ![Screenshot from 2024-02-05 12-58-42](https://github.com/NashTech-Labs/akka-http-with-postgres-db/assets/124979629/b6c8adcd-bedf-4edd-af04-8cc3e49714b7)
+
  
 
 2. **Create a database Postgres(already created then don't create).**        
@@ -45,7 +46,7 @@
    
 
 5. **Now Run** the **UserAPI scala class** it will generate the userAPI to create, read, update, delete the users.    
-   Below are the **list of user API.**
+   Below is the **list of user API.**
     - **create user:** http://localhost:8081/api/create-user
     - **get all users:** http://localhost:8081/api/get-all-users
     - **get user by id:** http://localhost:8081/api/get-user-by-id/101 **_(Replace 101 by the userID)_**
@@ -65,5 +66,5 @@
       "address": "Near Ram-eesh International, Greater Noida",
    }
    ```
-   **Example:**      
-   ![Screenshot from 2024-02-05 21-02-21.png](..%2F..%2F..%2FPictures%2FScreenshot%20from%202024-02-05%2021-02-21.png)
+   **Example:**            
+   ![Screenshot from 2024-02-05 21-02-21](https://github.com/NashTech-Labs/akka-http-with-postgres-db/assets/124979629/195f2c9a-9f9d-455b-9238-518d7225da3e)
